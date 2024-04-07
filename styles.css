@@ -3,7 +3,13 @@
     padding: 0;
 }
 body{
-    background-color: #C6EBC5;
+
+    background-image: url("atlantis.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
     font-family:  sans-serif ;
 }
 
@@ -11,11 +17,12 @@ body{
     font-family: "Rakkas", serif;
     font-weight: 400;
     font-style: normal;
+    color: rgb(0, 36, 104);
   }
   
   #me{
-    background-color: bisque;
     font: 200px;
+    border-radius: 50px;
   }
 h1,h2,h3{
     text-align: center;
@@ -28,7 +35,9 @@ h1,h2,h3{
 }
 
 h1{
-    border-style: dotted;
+    border-style: solid;
+    border-color: rgb(0, 36, 104);
+    border-radius: 50px;
 
 }
   
@@ -65,12 +74,19 @@ table{
     justify-content: space-around;
     align-items: center;
     height: 100vh;
+
 }
 
 .flex-item{
     flex: 0 1 auto;/*fex-grow flex-shrink flex-basis*/
     align-self: center;
     order: 2;
+    background-image: url(images/item1.jpg);
+    background-attachment: local;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+
 }
 
 .header-container{
