@@ -3,43 +3,48 @@
     padding: 0;
 }
 body{
-
-    background-image: url("atlantis.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-
-    font-family:  sans-serif ;
+    font-family:  "Rakkas" ;
+    background-color: #7FC7D9;
 }
 
 .rakkas-regular {
     font-family: "Rakkas", serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
-    color: rgb(0, 36, 104);
+    color: #164863;
+
   }
   
   #me{
     font: 200px;
-    border-radius: 50px;
+    font-size: 40px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
-h1,h2,h3{
+
+  a{
+   
+ text-decoration: none;
+  }
+
+
+  h1{
     text-align: center;
+    font-size: 60px;
+    -webkit-text-fill-color: #427D9D;
+    -webkit-text-stroke: 1px #164863;
+
 }
 
 .bold{
     font-weight: 600;
-    font-size: 60px;
+    font-size: 30px;
     
 }
 
-h1{
-    border-style: solid;
-    border-color: rgb(0, 36, 104);
-    border-radius: 50px;
-
-}
   
 table{
     background-color: #9CAFAA;
@@ -59,62 +64,48 @@ table{
     justify-content: flex-end;
 }
 
-.login {
-    margin-left: 20px;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-between;
-}
 
 .flex-container{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    flex-direction: row;
     align-items: center;
-    height: 100vh;
+    height: 600px;
 
 }
 
 .flex-item{
-    flex: 0 1 auto;/*fex-grow flex-shrink flex-basis*/
+    display: flex;
+    flex: 0 1 auto;
     align-self: center;
     order: 2;
     background-image: url(images/item1.jpg);
     background-attachment: local;
-    background-size: contain;
-    width: 200px;
-    height: 200px;
+    background-size: cover;
+    width: 20%;
+    height: 60%;
+    font-size: 40px;
+   justify-content: center;
+    align-items: center;
 
 }
-
-.header-container{
-    color: #5995da;
-    background-color: #d6e9;
+.arka-plan{
+    position: absolute;
+    top: 0;
+    z-index: -10;
+    height: 100vh;
+    overflow: hidden;
+}
+.iletisim{
     display: flex;
-    justify-content: center;
-}
-
-.header{
     width: 900px;
-    height: 300px;
-    display: flex;
+    align-items: center;
     justify-content: space-around;
-    align-items: center; /*add this*/
+    margin: auto;
 }
-.photo-grid-container{
-    display: flex;
-    justify-content: center;
+.instagram{
+    width: 80px;
 }
-.photo-grid{
-    display: flex;
-    width: 900px;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-.photo-grid-item{
-    border: 5px solid salmon ;
-    width: 300px;
-    height: 300px;
+.instagram img{
+    max-width: 100%;
 }
