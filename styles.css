@@ -6,15 +6,19 @@ body{
     font-family:  "Rakkas" ;
     background-color: #7FC7D9;
 }
-
 .rakkas-regular {
     font-family: "Rakkas", serif;
     font-weight: 600;
     font-style: normal;
     color: #164863;
-
-  }
-  
+}
+.rakkas-regular-2 {
+    font-family: "Rakkas", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #164863;
+    text-align: center;
+}
   #me{
     font: 200px;
     font-size: 40px;
@@ -24,13 +28,10 @@ body{
     justify-content: center;
     flex-direction: column;
   }
-
   a{
    
  text-decoration: none;
   }
-
-
   h1{
     text-align: center;
     font-size: 60px;
@@ -38,33 +39,26 @@ body{
     -webkit-text-stroke: 1px #164863;
 
 }
-
 .bold{
     font-weight: 600;
     font-size: 30px;
     
 }
-
-  
 table{
     background-color: #9CAFAA;
     color: #fff;
     padding: 10px;
 }
-
 .main-content{
     width: 70%;
     float: left;
     padding: 10px;
 }
-
 .links {
     border: 5px solid rgb(54, 95, 67); /*For debugging*/
     display: flex;
     justify-content: flex-end;
 }
-
-
 .flex-container{
     display: flex;
     justify-content: space-around;
@@ -73,7 +67,6 @@ table{
     height: 600px;
 
 }
-
 .flex-item{
     display: flex;
     flex: 0 1 auto;
@@ -108,4 +101,17 @@ table{
 }
 .instagram img{
     max-width: 100%;
+}
+.photo-grid-container{
+    display: flex;
+    justify-content: center;
+}
+.photo-grid{
+    display: flex;
+    width: 900px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.photo-grid-item img{
+    width: 300px;
 }
