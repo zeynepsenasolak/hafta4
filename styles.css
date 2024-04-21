@@ -29,7 +29,6 @@ body{
     flex-direction: column;
   }
   a{
-   
  text-decoration: none;
   }
   h1{
@@ -114,4 +113,27 @@ table{
 }
 .photo-grid-item img{
     width: 300px;
+}
+.photo-grid-item-2 img{
+    width: 500px;
+}
+button{
+    font-size: 20px;
+    background-color: #427D9D;
+    color: #164863;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.photo-grid-2{
+    display: flex;
+    width: 100%;
+    justify-content: inherit;
+    flex-wrap: wrap;
+}
+#warning{
+    font-family: "Rakkas", serif;
+    font-size: 40px;
+    font-style: normal;
+    color: #164863;
+    text-align: center;
 }
