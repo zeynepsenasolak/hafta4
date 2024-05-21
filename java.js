@@ -42,3 +42,33 @@ if(age>= 18) {
 } else {
     console.log("you are a minor");
 }
+
+let sena = document.getElementById('me');
+console.log(sena);
+
+let mixer = document.getElementsByClassName('rakkas-regular-2');
+console.log(mixer); 
+
+sena.innerHTML = '<p> New content added with innerHTML! </p>'; 
+function changeImageSource() {
+let resim = document.getElementById('ins');
+let newImageSource = 'images/sulu boya.jpg';
+
+resim.setAttribute('src', newImageSource);
+}
+
+function addItalic() {
+    let meme = document.getElementById('ayh');
+    meme.classList.add('italic');
+}
+
+let childElement = document.getElementById('ins');
+let parentElement = childElement.parentNode;
+console.log(parentElement); 
+
+function createNewDiv() {
+    let newDiv = document.createElement('div');
+    newDiv.classList.add('newDiv');
+    newDiv.textContent = 'this is a dynamically created div!';
+    document.body.appendChild(newDiv);
+}

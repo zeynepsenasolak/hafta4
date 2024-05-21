@@ -99,6 +99,9 @@ table{
 .instagram{
     width: 80px;
 }
+#ins{
+    width: 80px;
+}
 .instagram img{
     max-width: 100%;
 }
@@ -137,4 +140,15 @@ button{
     font-style: normal;
     color: #164863;
     text-align: center;
+}
+#ayh{
+    font-weight: 600;
+}
+.italic{
+    font-style: italic;
+}
+.newDiv{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
 }
